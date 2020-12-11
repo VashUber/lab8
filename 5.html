@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задание 5</title>
+</head>
+<body>
+  <script>
+    var a = [];
+    for (let i = 0; i < 5; i++)
+      a[i] = prompt("Введите число:")
+    console.log(a)
+    let max = a[0]
+    for (let i = 0; i < 5; i++){
+      if (a[i] > max)
+        max = a[i]
+    }
+    console.log(max)
+  </script>
+</body>
+</html>
